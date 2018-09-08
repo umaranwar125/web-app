@@ -1,0 +1,35 @@
+1) If 
+	"mysqli_num_rows"  problem  occur then check the connection , database , and table name.
+2) If 
+	"mysqli_fetch_row" problem occur then replace row form array.
+3) If
+	You have set a variable in href e.g (del or id or e.t.c) then always use  isset(GET) variable to access.
+4) If
+	We do ajax call and on php we run insert query then their is 100% chances to insert more than one data in DB on one click.
+5) If 
+	Query is doing something wrong try to declare query in a function or conditional statments to avoid such a problem.
+6) IF 
+	Parse error: syntax error, unexpected end of file in C:\xampp\htdocs\MyFiles\MyProject\Backend\Messages.php "You did'nt close anything with bracket"
+
+
+
+
+
+1)
+	ucfirst();
+2)
+	substr();
+3
+	<a href="fileNameWithExtension?VarName=<?php echo $VarName (e.g $id) ?>">Category</a>
+
+
+
+
+
+
+1)
+	Search Engine
+2)
+	Website
+3)
+	Hack search engine

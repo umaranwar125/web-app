@@ -1,0 +1,787 @@
+﻿/*#########################
+General Styling
+#########################*/
+body{
+	background: #fafafa;
+}
+/*#########################
+Header Navigation Section 
+#########################*/
+
+#Header{
+	background: url(../Image/BG.png)fixed;
+	height: 662px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid #fa5c65;
+}
+#Header .text-center a{
+	margin-top: 110px;
+	position: absolute;
+	margin-left: -28px;
+}
+.navbar {
+	background: #222222;
+	border-bottom: 0px;
+	height: 85px;
+	box-shadow: 0px 2px 10px #2d2d2d;
+}
+.navbar .navbar-header a{
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 3px;
+	line-height:28px;
+	transition: .5s;
+}
+.navbar .navbar-header a b{
+	font-size: 25px;
+}
+.navbar .navbar-header a span{
+	color: #fa5c65;
+}
+.navbar .collapse .nav{
+	margin-top: 15px;
+}
+.navbar .collapse .nav .active a{
+	background: #fa5c65;
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	margin-top: -15px;
+	padding: 30px 15px 35px 15px;
+	margin-right: 2px;
+}
+.navbar .collapse .nav .create-button a{
+	border: 1px solid #fa5c65;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu{
+	background: #2d2d2d;
+	margin-top: 20px;
+	margin-right: -20px;
+}
+.navbar .collapse .nav .dropdown a:visited{
+	background: #222222;
+}
+.navbar .collapse .nav li a{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu .active a{
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	background: #fa5c65;
+}
+.navbar .collapse .nav .create-button a:hover{
+	transition: .5s;
+	color: white;
+	font-weight: bold;
+	transform: scale(.9);
+	background: #fa5c65;
+	box-shadow: 0 0 10px #fa5c65;
+	margin-top: 0px;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu li a:hover{
+	background: transparent !important;
+}
+.navbar .navbar-header a:hover{
+	transition: .5s all;
+	color: #fa5c65;
+}
+.navbar .collapse .nav .active a:hover{
+	transition: .5s;
+	margin-top: -15px;
+	color: #2d2d2d;
+	text-shadow: 0 0 0px;
+	font-weight: bold;
+}
+.navbar .collapse .nav li a:hover{
+	color: #fa5c65;
+	transition: .5s all;
+	margin-top: 5px;
+}
+.navbar .collapse .nav .profile{
+    margin-top: -6px;
+}
+.navbar .collapse .nav .profile span{
+    margin-left: 5px;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
+
+/*=======================
+CSS3 Media Queries
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px)
+{
+    .navbar .collapse .nav li a{
+		font-size: 12px;
+		margin-top: 7px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 7px 10px 7px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 70px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 250px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 70%;
+	}
+	#Testimonial .footer h5{
+		font-size: 12px;
+	}
+}
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	.navbar .collapse .nav li a{
+		font-size: 11px;
+		margin-top: 7px;
+	}
+	.navbar{
+		height: 130px;
+	}
+	.navbar .collapse .nav .active a{
+		background: transparent;
+		margin-top: -8px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	.navbar .collapse .nav li a:hover{
+		margin-top: 0px;
+	}
+	.navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	.navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	.hero-content h1{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.hero-content h1 b{
+		font-size: 35px;
+	}
+	.hero-content p{
+		font-size: 14px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		font-size: 13x;
+		padding: 3px 10px 3px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 90px;
+	}
+	#discussion-forum .post{
+		margin-top: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		margin: 20px 0px 20px 0px;
+		padding: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 60%;
+		border-radius: 5px;
+	}
+	#discussion-forum .post  .media .comment input[type=submit]{
+		font-size: 12px;
+		border-radius: 5px;
+		padding: 7px 0px 7px 0px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]::-webkit-input-placeholder{
+		font-size: 11px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#discussion-forum .column2 .panel .panel-body h5,.column2 .panel .panel-body p{
+		text-align: center;
+		line-height: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 40px;
+	}
+	#Testimonial .footer h5{
+		text-align: center;
+		font-size: 12px;
+	}
+	#Testimonial .footer .text-right{
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#Testimonial .column-1 h4{
+		font-size: 18px;
+	}
+	#Testimonial .column-1 a{
+		font-size: 13px;
+	}
+	#Testimonial .column-1 p{
+		font-size: 13px;
+	}
+}
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	.navbar{
+		height: 90px;
+	}
+	.navbar .navbar-toggle{
+		margin-top: 30px;
+		background:transparent !important;
+	}
+	.navbar .navbar-toggle .icon-bar{
+		background: #fa5c65;
+	}
+	.navbar .navbar-toggle:hover{
+		border: 1px solid #fa5c65;
+		transition: .5s;
+	}
+	.navbar .collapse .nav{
+		background: #2d2d2d;
+	}
+	.navbar .collapse .nav li a{
+		font-size: 14px;
+	}
+	.navbar .collapse .nav .active a{
+		margin-bottom: -30px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	.navbar .collapse .nav li a:hover{
+		margin-top: 7px;
+	}
+	.navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	.navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	#Header{
+		height: 550px;
+	}
+	#Header .text-center a{
+		margin-top: 55px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 20px 10px 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 100%;
+	}
+	#discussion-forum .column2 .panel{
+		margin-top: 40px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4,.column2 .panel .panel-body p{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .column2 .panel .panel-body h5{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 0px;
+	}
+	#Testimonial .column-1 p{
+		margin-bottom: 30px;
+	}
+	#Testimonial .column-1 .text-left{
+		margin-bottom: 30px;
+	}
+}
+
+/* For Extra Small Screen*/
+@media only screen and (min-width: 300px) and (max-width: 570px)
+{
+	#Header{
+		height: 660px;
+	}
+	#Header .text-center a{
+		display: none;
+	}
+	.hero-content h1{
+		margin-top: -30px;
+	}
+	.hero-content p{
+		margin-bottom: 0px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 5px 10px 5px;
+		font-size: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 295px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	#content1 .post1 a,.post2 a,.post3 a,.post4 a{
+		font-size: 10px;
+	}
+	#discussion-forum .post  .media .all-comments .comments h5,.post  .media .all-comments .comments p{
+		margin-left: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		margin-left: 0px;
+	}
+	#Testimonial .footer .text-right{
+		margin-top: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .post  .media .media-left img{
+		width: 80px;
+	}
+}
+
+
+/*=======================
+Prfile Styling
+=======================*/
+
+#ProfileForm{
+    margin-top: 80px;
+}
+form .my-profile{
+    padding: 50px 120px 50px 120px;
+}
+form .my-profile .bg{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: white;
+    height: 230px;
+}
+form .my-profile .full-name{
+    margin-top: 5px;
+    line-height: 55px;
+    margin-left: 20px;
+    font-size: 22px;
+    position: absolute;
+    color: #fa5c65;
+    font-family: 'EB Garamond', serif;
+}
+form .my-profile .full-name span{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+form .my-profile .flag{
+    position:absolute;
+    line-height: 170px;
+}
+form .my-profile .pakistan-flag{
+    width: 22px;
+    height: 15px;
+}
+form .my-profile .flag-name{
+    font-family: 'EB Garamond', serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+form .my-profile img{
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 190px;
+    display: inline;
+    height: 190px;
+}
+form .my-profile .member{
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    margin-left: 22px;
+    font-weight: normal;
+    position: absolute;
+    line-height: 120px;
+}
+form .my-profile .edit-button{
+    background: transparent !important;
+    text-decoration: underline;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    color: #222222;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+form .my-profile .edit-button:hover{
+    color: #fa5c65;
+    transition: 0.5s;
+}
+form .my-profile .edit-button{
+    border: none;
+    box-shadow: none;
+
+}
+form .my-profile .About-me-heading{
+    margin-top: 20px;
+    font-family: 'EB Garamond', serif;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fa5c65;
+}
+form .my-profile hr{
+    border: 0.5px solid #fa5c65;
+}
+form .my-profile .About-me-paragraph{
+    padding-left: 20px;
+    font-family: 'EB Garamond', serif;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+form .my-profile .about-yourself h4, .change-email h4, .change-password h4, .change-image h4, .change-number h4{
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+form .my-profile .about-yourself textarea{
+    margin: 20px;
+    margin-right:20px;
+    margin-top: 10px;
+    font-family: 'EB Garamond', serif;
+    border: 0px;
+    width: 75vw;
+}
+form .my-profile .about-yourself textarea:focus{
+    border: 1px solid #fa5c65;
+}
+form .my-profile .change-email .bg{
+    height: 160px;
+}
+form .my-profile .change-number .bg{
+    height: 160px;
+}
+form .my-profile .change-email .email, .change-password .password, .change-number .number{
+    margin: 20px;
+    margin-right:20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 34vw;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    border: none;
+}
+form .my-profile .change-email .email:focus, .change-password .password:focus, .change-number .number:focus{
+    border: 1px solid #fa5c65;
+    box-shadow: 0px 0px 1px blue;
+}
+form .my-profile .change-password .bg{
+    height: 160px;
+}
+form .my-profile .change-image .bg{
+    height: 160px;
+}
+form .my-profile .change-image .image{
+    margin: 20px;
+    margin-right:20px;
+    margin-top: 40px;
+}
+form .my-profile .update-button{
+    border: 1px solid #fa5c65;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:150px;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    background: transparent !important;
+    transition: 0.5s;
+}
+form .my-profile .update-button:hover{
+    transition: 0.5s;
+    color: #fa5c65;
+}
+
+
+
+/*=======================
+Submitted Report Styling
+=======================*/
+
+form .my-profile .submit-reprt .mybg{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: white;
+}
+form .my-profile .submit-reprt #mybg1{
+    margin-bottom: 150px;
+}
+form .my-profile .submit-reprt .mybg .heading{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #fa5c65;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 22px;
+    padding-right: 20px;
+}
+form .my-profile #discussion-forum .media .media-left img{
+    width: 300px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top:0px;
+}
+form .my-profile #discussion-forum .media .media-body h4{
+    font-size: 20px;
+}
+
+
+/*===========================
+Footer Section
+===========================*/
+.footer1{
+	background: #2d2d2d;
+	height: 90px;
+	color: white;
+	border-top: 3px solid #fa5c65;
+}
+.footer1 .text-center a{
+	margin-top: -28px;
+	position: absolute;
+	margin-left: -28px;
+}
+.footer1 h5{
+	margin-top: 45px;
+}
+.footer1 .text-right{
+	margin-top: 40px;
+}
+.footer1 .text-right a{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	text-decoration: none;
+}
+.footer1 a:hover{
+	color:  #fa5c65;
+}
+
+
+/*=======================
+CSS3 Media Queries
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px) 
+{
+    .footer1 a{
+		font-size: 12px;
+	}
+	.footer1 h5{
+		font-size: 12px;
+	}
+    form .my-profile{
+        margin-top: 110px;
+    }
+    form .my-profile .full-name{
+        margin-left:10px;
+        font-size: 16px;
+    }
+    form .my-profile .full-name span{
+        font-size: 12px;
+    }
+    form .my-profile .flag{
+        margin-left: -10px;
+    }
+    form .my-profile .member{
+        margin-left:10px;
+        font-size: 12px;
+    }
+    form .my-profile img{
+        width: 130px;
+        height: 160px;
+    }
+    form .my-profile .about-yourself textarea{
+        width: 93%;
+    }
+    form .my-profile .change-email .email, .change-password .password, .change-number .number{
+        width: 90%;
+    }
+}
+
+/* For Large Screen*/
+@media (max-width: 992px) 
+{
+    .footer1{
+		height: 110px;
+	}
+	.footer1 h5{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.footer1 .text-right{
+		text-align: center;
+		margin-top: 10px;
+	}
+    form .my-profile .full-profile{
+        margin-bottom: 20px;
+    }
+    form .my-profile .full-name{
+        margin-left:30px;
+        font-size: 22px;
+    }
+    form .my-profile .full-name span{
+        font-size: 18px;
+    }
+    form .my-profile .flag{
+        margin-left: 10px;
+    }
+    form .my-profile .member{
+        margin-left:30px;
+        font-size: 14px;
+    }
+    form .my-profile img{
+        width: 200px;
+        height: 190px;
+    }
+}
+
+/* For Small Screen*/
+@media (max-width: 768px) 
+{
+    .footer1{
+		height: 130px;
+	}
+	.footer1 h5{
+		margin-top: 40px;
+	}
+    form .my-profile{
+        margin-top: 80px;
+    }
+    form .my-profile .full-name{
+        margin-left:10px;
+        font-size: 22px;
+    }
+    form .my-profile .full-name span{
+        font-size: 18px;
+    }
+    form .my-profile .flag{
+        margin-left: -10px;
+    }
+    form .my-profile .member{
+        margin-left:10px;
+        font-size: 14px;
+    }
+    form .my-profile img{
+        width: 200px;
+        height: 190px;
+    }
+    form .my-profile #discussion-forum .media .media-left img{
+        margin-left: 10vw;
+    }
+    form .my-profile #discussion-forum .media .media-body{
+        display: block;
+        margin-left: 10vw;
+    }
+    form .my-profile {
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+@media (max-width: 600px) 
+{
+    .footer1{
+		height: 140px;
+	}
+    form .my-profile {
+        padding: 50px 20px 50px 20px;
+    }
+    form .my-profile .full-name{
+        margin-left:5px;
+        font-size: 12px;
+    }
+    form .my-profile .full-name span{
+        font-size: 10px;
+    }
+    form .my-profile .edit-button{
+        font-size: 12px;
+    }
+    form .my-profile .update-button{
+        font-size: 12px;
+    }
+    form .my-profile .submit-reprt .heading{
+        font-size: 12px;
+    }
+    form .my-profile .flag{
+        margin-left: -7px;
+    }
+    form .my-profile .About-me-heading{
+        font-size: 12px;
+    }
+    form .my-profile .flag .flag-name{
+        font-size: 12px;
+    }
+    form .my-profile .member{
+        margin-left:5px;
+        font-size: 12px;
+    }
+    form .my-profile #discussion-forum .media .media-left img{
+        margin-left: 5vw;
+    }
+    form .my-profile #discussion-forum .media .media-body{
+        display: block;
+        margin-left: 5vw;
+    }
+    form .my-profile img{
+        width: 170px;
+        height: 160px;
+        margin-left: 10px;
+    }
+    .navbar-fixed-bottom h5{
+        text-align: center;
+    }
+    form .my-profile .submit-reprt .mybg .heading{
+        font-size: 12px;
+    }
+    form .my-profile #discussion-forum .media .media-body{
+        font-size: 10px;
+    }
+    .navbar .navbar-header a{
+        font-size: 12px;
+    }
+    .footer1 a{
+		font-size: 12px;
+	}
+	.footer1 h5{
+        font-size: 12px;
+	}
+    .navbar .collapse .nav li a{
+        font-size: 12px;
+    }
+}

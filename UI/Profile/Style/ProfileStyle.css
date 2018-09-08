@@ -1,0 +1,533 @@
+﻿/*#########################
+General Styling
+#########################*/
+body{
+	background: #fafafa;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background: #fa5c65; 
+}
+::selection{
+    background: #bdc3c7;
+}
+
+/*#########################
+Header Navigation Section 
+#########################*/
+
+#Profie-Header .navbar {
+	background: #222222;
+	border-bottom: 0px;
+	height: 85px;
+	box-shadow: 0px 2px 10px #2d2d2d;
+}
+#Profie-Header .navbar .navbar-header a{
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 3px;
+	line-height:28px;
+	transition: .5s;
+}
+#Profie-Header .navbar .navbar-header a b{
+	font-size: 25px;
+}
+#Profie-Header .navbar .navbar-header a span{
+	color: #fa5c65;
+}
+#Profie-Header .navbar .collapse .nav{
+	margin-top: 15px;
+}
+#Profie-Header .navbar .collapse .nav .active a{
+	background: #fa5c65;
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	margin-top: -15px;
+	padding: 30px 15px 35px 15px;
+	margin-right: 2px;
+}
+#Profie-Header .navbar .collapse .nav .create-button a{
+	border: 1px solid #fa5c65;
+}
+.navbar .collapse .nav .dropdown img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+#Profie-Header .navbar .collapse .nav .dropdown .dropdown-menu{
+	background: #2d2d2d;
+	margin-top: 20px;
+	margin-right: -20px;
+}
+#Profie-Header .navbar .collapse .nav .dropdown a:visited{
+	background: #222222;
+}
+#Profie-Header .navbar .collapse .nav li a{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+#Profie-Header .navbar .collapse .nav .dropdown .dropdown-menu .active a{
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	background: #fa5c65;
+}
+#Profie-Header .navbar .collapse .nav .create-button a:hover{
+	transition: .5s;
+	color: white;
+	font-weight: bold;
+	transform: scale(.9);
+	background: #fa5c65;
+	box-shadow: 0 0 10px #fa5c65;
+	margin-top: 0px;
+}
+#Profie-Header .navbar .collapse .nav .dropdown .dropdown-menu li a:hover{
+	background: transparent !important;
+}
+#Profie-Header .navbar .navbar-header a:hover{
+	transition: .5s all;
+	color: #fa5c65;
+}
+#Profie-Header .navbar .collapse .nav .active a:hover{
+	transition: .5s;
+	margin-top: -15px;
+	color: #2d2d2d;
+	text-shadow: 0 0 0px;
+	font-weight: bold;
+}
+#Profie-Header .navbar .collapse .nav li a:hover{
+	color: #fa5c65;
+	transition: .5s all;
+	margin-top: 5px;
+}
+#Profie-Header .navbar .collapse .nav .profile{
+    margin-top: -6px;
+}
+#Profie-Header .navbar .collapse .nav .profile span{
+    margin-left: 5px;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+#Testimonial .footer{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background: #2d2d2d;
+    height: 60px;
+    border-top: 2px solid #fa5c65;
+    padding-top: 20px;
+}
+#Testimonial .footer h5{
+	margin-top: 5px;
+	text-shadow: 1px 1px 10px black;
+	font-family: 'EB Garamond', serif;
+    color: white;
+}
+#Testimonial .footer a{
+	font-family: 'EB Garamond', serif;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+}
+#Testimonial .footer a:hover{
+	color: #fa5c65;
+	text-decoration: none;
+}
+
+
+/*=======================
+CSS3 Media Queries
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px)
+{
+    #Profie-Header .navbar .collapse .nav li a{
+		font-size: 12px;
+		margin-top: 7px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 7px 10px 7px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 70px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 250px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 70%;
+	}
+	#Testimonial .footer h5{
+		font-size: 12px;
+	}
+}
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	#Profie-Header .navbar .collapse .nav li a{
+		font-size: 11px;
+		margin-top: 7px;
+	}
+	#Profie-Header .navbar{
+		height: 130px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a{
+		background: transparent;
+		margin-top: -8px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	#Profie-Header .navbar .collapse .nav li a:hover{
+		margin-top: 0px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	#Profie-Header .navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	.hero-content h1{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.hero-content h1 b{
+		font-size: 35px;
+	}
+	.hero-content p{
+		font-size: 14px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		font-size: 13x;
+		padding: 3px 10px 3px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 90px;
+	}
+	#discussion-forum .post{
+		margin-top: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		margin: 20px 0px 20px 0px;
+		padding: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 60%;
+		border-radius: 5px;
+	}
+	#discussion-forum .post  .media .comment input[type=submit]{
+		font-size: 12px;
+		border-radius: 5px;
+		padding: 7px 0px 7px 0px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]::-webkit-input-placeholder{
+		font-size: 11px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#discussion-forum .column2 .panel .panel-body h5,.column2 .panel .panel-body p{
+		text-align: center;
+		line-height: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 40px;
+	}
+	#Testimonial .footer h5{
+		text-align: center;
+		font-size: 12px;
+	}
+	#Testimonial .footer .text-right{
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#Testimonial .column-1 h4{
+		font-size: 18px;
+	}
+	#Testimonial .column-1 a{
+		font-size: 13px;
+	}
+	#Testimonial .column-1 p{
+		font-size: 13px;
+	}
+    .profile nav{
+        margin-top: 180px;
+    }
+    #Testimonial .footer{
+        height: 90px;
+    }
+}
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	#Profie-Header .navbar{
+		height: 90px;
+	}
+	#Profie-Header .navbar .navbar-toggle{
+		margin-top: 30px;
+		background:transparent !important;
+	}
+	#Profie-Header .navbar .navbar-toggle .icon-bar{
+		background: #fa5c65;
+	}
+	#Profie-Header .navbar .navbar-toggle:hover{
+		border: 1px solid #fa5c65;
+		transition: .5s;
+	}
+	#Profie-Header .navbar .collapse .nav{
+		background: #2d2d2d;
+	}
+	#Profie-Header .navbar .collapse .nav li a{
+		font-size: 14px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a{
+		margin-bottom: -30px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	#Profie-Header .navbar .collapse .nav li a:hover{
+		margin-top: 7px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	#Profie-Header .navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	#Header{
+		height: 550px;
+	}
+	#Header .text-center a{
+		margin-top: 55px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 20px 10px 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 100%;
+	}
+	#discussion-forum .column2 .panel{
+		margin-top: 40px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4,.column2 .panel .panel-body p{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .column2 .panel .panel-body h5{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 0px;
+	}
+	#Testimonial .column-1 p{
+		margin-bottom: 30px;
+	}
+	#Testimonial .column-1 .text-left{
+		margin-bottom: 30px;
+	}
+    .profile nav{
+        margin-top: 120px;
+    }
+    .profile .Profile-bg{
+        margin-bottom: 700px;
+    }
+}
+@media (max-width: 450px) 
+{
+    .profile .Profie-info-bg .media .media-left a img{
+        width: 100px;
+    }
+    .profile .Profie-info-bg .media .media-body div.dropdown ul{
+        width: 50px;
+    }
+    .profile .Profie-info-bg .media .media-body div.dropdown ul li{
+        font-size: 10px;
+    }
+}
+
+
+/* For Extra Small Screen*/
+@media only screen and (min-width: 300px) and (max-width: 570px)
+{
+	#Header{
+		height: 660px;
+	}
+	#Header .text-center a{
+		display: none;
+	}
+	.hero-content h1{
+		margin-top: -30px;
+	}
+	.hero-content p{
+		margin-bottom: 0px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 5px 10px 5px;
+		font-size: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 295px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	#content1 .post1 a,.post2 a,.post3 a,.post4 a{
+		font-size: 10px;
+	}
+	#discussion-forum .post  .media .all-comments .comments h5,.post  .media .all-comments .comments p{
+		margin-left: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		margin-left: 0px;
+	}
+	#Testimonial .footer .text-right{
+		margin-top: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .post  .media .media-left img{
+		width: 80px;
+	}
+    .profile .Profile-bg{
+        margin-bottom: 450px;
+    }
+    #Testimonial .footer{
+        height: 110px;
+    }
+}
+
+
+.profile{
+	margin-top: 130px;
+}
+.profile nav{
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #d7dfe3;
+}
+.profile nav a{
+	font-family: 'Quicksand', sans-serif;
+}
+.profile nav ul li a{
+	font-size: 13px;
+}
+.profile .Profile-bg{
+    margin-top: 20px;
+	background: #ffffff;
+	width: 100%;
+	height: 400px;
+	box-shadow: 0px 0px 10px #d7dfe3;
+	border-radius: 5px 5px 0px 0px;
+}
+.profile .Profile-bg img{
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+.profile .Profile-bg h3{
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+.profile .Profile-bg h5{
+    text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+.profile .Profie-info-bg{
+	background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 80px;
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #d7dfe3;
+	border-radius: 5px 5px 0px 0px;
+}
+.profile .Profie-info-bg .Submit-reposrts, .Favourite-reposrts{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: gray;
+	font-size: 15px;
+}
+.profile .Profie-info-bg .bottom{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	border: .5px solid gray;
+}
+.profile .Profie-info-bg .media a{
+	font-size: 15px;
+	color: gray;
+}
+.profile .Profie-info-bg .media-heading{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.profile .Profie-info-bg h6{
+	font-family: 'Quicksand', sans-serif;
+}
+.profile .Profie-info-bg hr:after{
+	background: red;
+	width: 20px;
+	width: 20px;
+}
+.profile .Profie-info-bg hr{
+	width: 60%;
+} 
+.profile .Profie-info-bg label, input{
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+}
+.profile .Profie-info-bg .margin{
+	margin-top: 20px;
+}
+.profile .Profie-info-bg textarea{
+    width: 100%;
+	border-bottom: 1px solid lightgray;
+    outline: none;
+	font-family: 'Quicksand', sans-serif;
+    height: 90px;    
+}
+.profile .Profie-info-bg input[type=text], input[type=password]{
+	width: 100%;
+	height: 35px;
+	border: 0;
+	border-bottom: 1px solid lightgray;
+}
+.profile .Profie-info-bg input[type=text]:focus, input[type=password]:focus{
+	outline: none;
+}
+.profile .Profie-info-bg input[type=button], input[type=submit]{
+	margin-top: 20px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+

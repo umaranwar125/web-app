@@ -1,0 +1,2551 @@
+e/*#########################
+General Styling
+#########################*/
+body{
+	background: #f7f7f7;
+}
+img{
+    object-fit: cover;
+}
+::-webkit-scrollbar{
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background: #fa5c65; 
+}
+::selection{
+    background: #bdc3c7;
+}
+
+/*#########################
+Favourtite Top
+#########################*/
+.top-favourite{
+    background: #f95c65;
+    margin-top: 85px;
+    margin-bottom: -10px;
+}
+.top-favourite p{
+	font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*#########################
+Header Navigation Section 
+#########################*/
+
+#Header{
+	background: url(../Image/BG.png)fixed;
+	height: 662px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid #fa5c65;
+}
+#Header .text-center a{
+	margin-top: 170px;
+	position: absolute;
+	margin-left: -28px;
+}
+.navbar {
+	background: #222222;
+	border-bottom: 0px;
+	height: 85px;
+	box-shadow: 0px 2px 10px #2d2d2d;
+	position: fixed;
+}
+.navbar .navbar-header a{
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 3px;
+	line-height:28px;
+	transition: .5s;
+}
+.navbar .navbar-header a b{
+	font-size: 25px;
+}
+.navbar .navbar-header a span{
+	color: #fa5c65;
+}
+.navbar .collapse .nav{
+	margin-top: 15px;
+}
+.navbar .collapse .nav .active a{
+	background: #fa5c65;
+	text-shadow: 1px 1px 10px black;
+	color: white;
+	margin-top: -15px;
+	padding: 30px 15px 35px 15px;
+	margin-right: 2px;
+}
+.navbar .collapse .nav .create-button a{
+	border: 1px solid #fa5c65;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu{
+	background: #2d2d2d;
+	margin-top: 20px;
+	margin-right: -20px;
+}
+.navbar .collapse .nav .dropdown a:visited{
+	background: #222222;
+}
+.navbar .collapse .nav li a{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu .active a{
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	background: #fa5c65;
+}
+.navbar .collapse .nav .create-button a:hover{
+	transition: .5s;
+	color: white;
+	font-weight: bold;
+	transform: scale(.9);
+	background: #fa5c65;
+	box-shadow: 0 0 10px #fa5c65;
+	margin-top: 0px;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu li a:hover{
+	background: transparent !important;
+}
+.navbar .collapse .nav .dropdown img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.navbar .navbar-header a:hover{
+	transition: .5s all;
+	color: #fa5c65;
+}
+.navbar .collapse .nav .active a:hover{
+	transition: .5s;
+	margin-top: -15px;
+	color: #2d2d2d;
+	text-shadow: 0 0 0px;
+	font-weight: bold;
+}
+.navbar .collapse .nav li a:hover{
+	color: #fa5c65;
+	transition: .5s all;
+	margin-top: 5px;
+}
+.navbar .collapse .nav .profile{
+    margin-top: -6px;
+}
+.navbar .collapse .nav .profile span{
+    margin-left: 5px;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
+
+/*#########################
+Hero Content Section 
+#########################*/
+
+.hero-content{
+	margin-top: 140px;
+	color: white;
+	font-family: 'EB Garamond', serif;
+}
+.hero-content h1{
+	margin-bottom: 15px;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	font-size: 30px;
+	color: #fa5c65;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+.hero-content h1 span{
+	font-size: 50px;
+}
+.hero-content h1 b{
+	font-size: 36px;
+}
+.hero-content p{
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.hero-content center .post-button{
+	color: white;
+	border: 1px solid #fa5c65;
+	padding: 8px 26px 8px 26px;
+	text-decoration: none;
+	border-radius: 2px;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	font-size: 16px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+.hero-content center .report-button{
+	color: white;
+	border: 1px solid #fa5c65;
+	padding: 8px 15px 8px 15px;
+	text-decoration: none;
+	border-radius: 2px;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	font-size: 16px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+.hero-content center .about-button{
+	color: white;
+	border: 1px solid #fa5c65;
+	padding: 8px 26px 8px 26px;
+	text-decoration: none;
+	border-radius: 2px;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin-right: 10px;
+	margin-left: 10px;
+	transition: .5s;
+}
+.hero-content center a:hover{
+	transition: 1s;
+	color: white;
+	box-shadow: 0 0 10px #fa5c65;
+	background: #fa5c65;
+}
+
+
+/*#########################
+Content1 Section 
+#########################*/
+
+#content1{
+	margin-top: 70px;
+	font-family: 'EB Garamond', serif;
+	color: black;
+}
+#content1 .post1,.post2,.post3,.post4{
+	/*box-shadow: 0 0 5px gray;
+	border-radius: 5px;
+	height: 230px;*/
+	transition: .5s;
+    overflow: hidden;
+    border: .5px solid lightgray;
+}
+#content1 .post1:before,.post2:before,.post3:before,.post4:before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top:0;
+    left:0;
+    border-top: 2px solid #2d2d2d;
+    border-left: 2px solid #2d2d2d;
+    opacity: 0;
+    transition: .5s;
+    box-sizing: border-box;
+}
+#content1 .post1:after,.post2:after,.post3:after,.post4:after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    bottom:0;
+    right:0;
+    border-bottom: 2px solid #2d2d2d;
+    border-right: 2px solid #2d2d2d;
+    opacity: 0;
+    transition: .5s;
+    box-sizing: border-box;
+}
+#content1 .post1:hover:before,.post2:hover:before,.post3:hover:before,.post4:hover:before{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+#content1 .post1:hover:after,.post2:hover:after,.post3:hover:after,.post4:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+	letter-spacing: 1px;
+	color: #2d2d2d;
+    font-size: 22px;
+}
+#content1 .post1 hr,.post2 hr,.post3 hr,.post4 hr{
+	margin-top: -5px;
+	border: .5px solid #fa5c65;
+	width: 20%;
+}
+#content1 .post1 p,.post2 p,.post3 p,.post4 p{
+	margin: 0;
+    padding: 0;
+    font-size: 14px;
+    transition-delay: .5s;
+    transition: .5s;transform: scale(.8);
+    margin-bottom: 20px;
+}
+#content1 .post1:hover p,.post2:hover p,.post3:hover p,.post4:hover p{
+    transition: .5s;transform: scale(1);
+}
+#content1 .post1 a,.post2 a,.post3 a,.post4 a{
+	border: .5px solid  #fa5c65;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+	color: #fa5c65;
+	font-size: 13px;
+	border-radius: 2px;
+    font-weight: bold;
+    transition: .5s;
+}
+#content1 .post1 a:hover,.post2 a:hover,.post3 a:hover,.post4 a:hover{
+	.transition: 1s;
+	background: #fa5c65;
+	transform: scale(.9);
+	color: white;
+}
+#content1 .post1:hover,.post2:hover,.post3:hover,.post4:hover{
+    box-shadow: 0px 0px 15px #d7dfe3;
+
+}
+
+
+/*#########################
+discussion-forum Section 
+#########################*/
+
+#discussion-forum{
+	margin-top: 70px;
+	margin-bottom: 50px;
+	font-family: 'Questrial', sans-serif;
+}
+#discussion-forum h2{
+	background: #2d2d2d;
+	color: white;
+	padding: 10PX 0PX 10PX 15PX;
+	border-radius: 5px 5px 0px 0px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 10px black;
+	border-bottom: 3px solid #fa5c65;
+    box-shadow: 0px 0px 10px #d7dfe3;
+}
+#discussion-forum h2 b{
+	color:#fa5c65; 
+}
+#discussion-forum .post{
+	background: white; 
+	border: 1px solid lightgray; 
+	border-radius: 4px; 
+	padding: 15px 15px 15px 15px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #d7dfe3;
+}
+#discussion-forum .post  .media .media-body{
+	height: 205px;
+}
+#discussion-forum .post  .media .media-body .dropdown a span{
+	color: gray;
+	font-size: 23px;
+	margin-top: -8px;
+} 
+#discussion-forum .post  .media .media-body .dropdown .dropdown-menu{
+	background: #2D2D2D;
+	margin-top: -10px;
+}
+#discussion-forum .post  .media .media-body .dropdown .dropdown-menu .divider{
+	background: #fa5c65;
+}
+#discussion-forum .post  .media .media-body .dropdown .dropdown-menu li a{
+	color: white;
+	font-size: 13px;
+	font-family: 'EB Garamond', serif;
+}
+#discussion-forum .post  .media .media-body .dropdown a span:hover{
+	color: #fa5c65;
+}
+#discussion-forum .post  .media .media-body .dropdown .dropdown-menu li a:hover{
+	color: #fa5c65;
+	background: #222222;
+}
+#discussion-forum .post  .media .media-body h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+#discussion-forum .post  .media .media-body h6{
+	font-size: 13px;
+}
+#discussion-forum .post  .media .media-body p{
+	font-size: 13px;
+}
+#discussion-forum .post  .media .media-body p a:hover{
+	text-decoration: none;
+	color: #2d2d2d;	
+}
+#discussion-forum .post  .media .all-comments .comments{
+    margin-bottom: 50px;
+}
+#discussion-forum .post  .media .all-comments .comments .myHR{
+    margin-top: -20px;
+    width: 30%;
+    border: 0.5px solid lightgray;
+}
+#discussion-forum .post  .media .all-comments .comments .dropdown a span{
+	color: #9c9898;
+	font-size: 15px;
+}
+#discussion-forum .post  .media .pull-right .view-all:hover{
+	text-decoration: none;
+	color: #fa5c65;
+}
+#discussion-forum .post  .media .all-comments .comments .dropdown .dropdown-menu{
+	background: #2D2D2D;
+}
+#discussion-forum .post  .media .all-comments .comments .dropdown .dropdown-menu li a{
+	color: white;
+}
+#discussion-forum .post  .media .all-comments .comments .dropdown .dropdown-menu li a:hover{
+	color: #fa5c65;
+	background: #222222;
+}
+#discussion-forum .post  .media .all-comments .comments h5{
+	font-size: 13px;
+}
+#discussion-forum .post  .media .all-comments .comments p{
+	font-size: 12px;
+}
+#discussion-forum .post  .media .all-comments{
+	padding: 15px 10px 5px 10px;
+	border-radius: 4px;
+}
+#discussion-forum .post  .media .all-comments h5{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 0px;
+}
+#discussion-forum .post  .media .all-comments p{
+	font-size: 14px;
+	line-height: 15px;
+	margin-bottom: 20px;
+}
+#discussion-forum .post  .media .comment{
+	background: #f5f5f5; 
+	border-radius: 4px;
+	padding: 10px 0px 10px 0px;
+}
+#discussion-forum .post  .media .comment input[type=text]{
+	margin-top: 7px;
+	width: 78%;
+	margin-left: 10px;
+	border-radius: 20px;
+	border: 1px solid #aaaaaa;
+	transition: .5s;
+}
+#discussion-forum .post  .media .comment input[type=submit]{
+	border-radius: 20px;
+	width: 100px;
+	letter-spacing: 1px;
+	margin-left: 10px;
+	transition: .5s;
+}
+#discussion-forum .post  .media .comment input[type=text]:hover{
+	transition: .5s;
+	background: #2d2d2d;
+	color: white;
+}
+#discussion-forum .post  .media .comment input[type=submit]:hover{
+	transition: .5s;
+	color: white;
+	text-shadow: 0 0 1px black;
+	box-shadow: 0 0 2px #fa5c65;
+	background: #fa5c65;
+}
+#discussion-forum center a{
+	font-size: 17px;
+	color: #2d2d2d;
+	border: 1px solid #2d2d2d;
+	padding: 4px 30px 4px 30px;
+	border-radius: 3px;
+	font-family: 'EB Garamond', serif;
+	transition: .5s;
+}
+#discussion-forum center a:hover{
+	color: white;
+	transition: .5s;
+	text-decoration: none;
+	background: #fa5c65;
+	border: 1px solid #fa5c65;
+	border-radius: 3px;
+}
+
+
+/*#########################
+discussion-forum Sidebar Section 
+#########################*/
+
+#discussion-forum .column2 .panel{
+	border-radius: 5px;
+    box-shadow: 0px 0px 15px #d7dfe3;
+    margin-bottom: 30px;
+}
+#discussion-forum .column2 .panel .panel-heading{
+	background: #2d2d2d;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-bottom: 3px solid #fa5c65;
+}
+#discussion-forum .column2 .panel .panel-body a{
+	color: #2d2d2d;
+	transition: .5s;
+}
+#discussion-forum .column2 .panel .panel-body h4{
+	line-height: 0px;
+	font-weight: bold;
+	margin-bottom: 23px;
+}
+#discussion-forum .column2 .panel .panel-body h5{
+	line-height: 0px;
+	font-size: 13px;
+}
+#discussion-forum .column2 .panel .panel-body p{
+	font-size: 13px;
+	margin-top: 5px;
+}
+#discussion-forum .column2 .panel .panel-body hr{
+	margin-top: 0px;
+	width: 50%;
+}
+#discussion-forum .column2 .panel .panel-body a{
+	text-decoration: none;
+}
+#discussion-forum .column2 .panel .panel-body a:hover{
+	transform: scale(1.1);
+	transition: .5s;
+	color: gray;
+}
+
+/*#########################
+Testimonial Section 
+#########################*/
+
+#Testimonial{
+	background: url(../Image/Footer-Area-BG.png);
+	color: white;
+	margin-top: 60px;
+	border-top: 3px solid #fa5c65;
+    margin-bottom: 0px;
+}
+#Testimonial .text-center a{
+	margin-top: -30px;
+	position: absolute;
+	margin-left: -28px;
+}
+#Testimonial center a i{
+	color: #fa5c65;
+	margin: 50px 10px 0px 10px;
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	background: transparent !important;
+	border-radius: 50%;
+	padding-top: 10px;
+	border: 2px solid #fa5c65;
+	text-shadow: 1px 1px 12px black;
+	box-shadow: 0px 0px 12px black;
+	transition: .5s;
+}
+#Testimonial center a i:hover{
+	transition: .5s;
+	color: white;
+	border: 2px solid white;
+}
+#Testimonial center hr{
+	border: 1px solid #fa5c65;
+	width: 10%;
+	margin-bottom: 40px;
+}
+#Testimonial .column-1 h4{
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	text-shadow: 1px 1px 10px black;
+}
+#Testimonial .column-1 a{
+	text-decoration: none;
+	color: white;
+	font-family: 'EB Garamond', serif;
+}
+#Testimonial .column-1 h4 .color{
+	color: #fa5c65;
+}
+#Testimonial .column-1 a:hover{
+	color: #fa5c65;
+	text-shadow: 1px 1px 10px black;
+}
+#Testimonial .column-1 p{
+	font-family: 'EB Garamond', serif;
+}
+#Testimonial .column-1 p span{
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: 'EB Garamond', serif;
+}
+#Testimonial hr{
+	border: 1px solid #fa5c65;
+}
+#Testimonial .footer{
+    padding-bottom: 20px;
+}
+#Testimonial .footer h5{
+	margin-top: 35px;
+	text-shadow: 1px 1px 10px black;
+	font-family: 'EB Garamond', serif;
+}
+#Testimonial .footer a{
+	font-family: 'EB Garamond', serif;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+}
+#Testimonial .footer .text-right{
+    margin-top: 30px;
+}
+#Testimonial .footer a:hover{
+	color: #fa5c65;
+	text-decoration: none;
+}
+
+/*=======================
+CSS3 Media Queries for Index Page
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px)
+{
+    .navbar .collapse .nav li a{
+		font-size: 12px;
+		margin-top: 7px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 7px 10px 7px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 130px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 70%;
+	}
+	#Testimonial .footer h5{
+		font-size: 12px;
+	}
+}
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	.navbar .collapse .nav li a{
+		font-size: 11px;
+		margin-top: 7px;
+	}
+	.navbar{
+		height: 130px;
+	}
+	.navbar .collapse .nav .active a{
+		background: transparent;
+		margin-top: -8px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	.navbar .collapse .nav li a:hover{
+		margin-top: 0px;
+	}
+	.navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	.navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	.hero-content h1{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.hero-content h1 b{
+		font-size: 35px;
+	}
+	.hero-content p{
+		font-size: 14px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		font-size: 13px;
+	}
+	#Header .text-center a{
+		margin-top: 150px;
+	}
+	#discussion-forum .post{
+		margin-top: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		margin: 20px 0px 20px 0px;
+		padding: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 60%;
+		border-radius: 5px;
+	}
+	#discussion-forum .post  .media .comment input[type=submit]{
+		font-size: 12px;
+		border-radius: 5px;
+		padding: 7.5px 0px 8px 0px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]::-webkit-input-placeholder{
+		font-size: 11px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#discussion-forum .column2 .panel .panel-body h5,.column2 .panel .panel-body p{
+		text-align: center;
+		line-height: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 40px;
+	}
+	#Testimonial .footer h5{
+		text-align: center;
+		font-size: 12px;
+	}
+	#Testimonial .footer .text-right{
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#Testimonial .column-1 h4{
+		font-size: 18px;
+	}
+	#Testimonial .column-1 a{
+		font-size: 13px;
+	}
+	#Testimonial .column-1 p{
+		font-size: 13px;
+	}
+}
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	.navbar{
+		height: 90px;
+	}
+	.navbar .navbar-toggle{
+		margin-top: 30px;
+		background:transparent !important;
+	}
+	.navbar .navbar-toggle .icon-bar{
+		background: #fa5c65;
+	}
+	.navbar .navbar-toggle:hover{
+		border: 1px solid #fa5c65;
+		transition: .5s;
+	}
+	.navbar .collapse .nav{
+		background: #2d2d2d;
+	}
+	.navbar .collapse .nav li a{
+		font-size: 14px;
+	}
+	.navbar .collapse .nav .active a{
+		margin-bottom: -30px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	.navbar .collapse .nav li a:hover{
+		margin-top: 7px;
+	}
+	.navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	.navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+    #Header .hero-content{
+        line-height: 30px;
+    }
+	#Header .text-center a{
+		margin-top: 150px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 20px 10px 20px;
+	}
+    #discussion-forum .post{
+        margin-top: 120px;
+    }
+    #discussion-forum .heading{
+        margin-bottom: -100px;
+    }
+    #discussion-forum .column2{
+        margin-top: 90px;
+    }
+	#discussion-forum .post .media .comment input[type=submit]{
+		padding: 7px 0px 7px 0px;
+	}
+	#discussion-forum .column2 .panel{
+		margin-top: 40px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4,.column2 .panel .panel-body p{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .column2 .panel .panel-body h5{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 0px;
+	}
+	#Testimonial .column-1 p{
+		margin-bottom: 30px;
+	}
+	#Testimonial .column-1 .text-left{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 350px){
+    .hero-content center .report-button{
+		padding: 10px 3px 10px 3px;
+		font-size: 11px;
+        letter-spacing: normal;
+	}
+    .hero-content p{
+        line-height: normal;
+    }
+    .hero-content center .post-button{
+        padding: 10px 3px 10px 3px;
+		font-size: 11px;
+        letter-spacing: normal;
+    }
+    #Testimonial a{
+        margin-left: -10px;
+    }
+}
+
+/* For Extra Small Screen*/
+@media only screen and (min-width: 300px) and (max-width: 570px)
+{
+	#Header .text-center a{
+		display: none;
+	}
+	.hero-content h1{
+		margin-top: -20px;
+	}
+	.hero-content p{
+		margin-bottom: 0px;
+	}
+	.hero-content center .report-button{
+		padding: 10px 10px 10px 10px;
+        margin: 10px;
+		font-size: 11px;
+	}
+    .hero-content p{
+        line-height: 20px;
+    }
+    .hero-content center .post-button{
+        padding: 10px 15px 10px 15px;
+        margin: 10px;
+		font-size: 11px;
+    }
+    .hero-content center .about-button{
+        display: none;
+    }
+	#content1 .post1,.post2,.post3,.post4{
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	#content1 .post1 a,.post2 a,.post3 a,.post4 a{
+		font-size: 10px;
+	}
+	#discussion-forum .post  .media .all-comments .comments h5,.post  .media .all-comments .comments p{
+		margin-left: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		margin-left: 0px;
+	}
+	#Testimonial .footer .text-right{
+		margin-top: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .post  .media .media-left img{
+		width: 80px;
+	}
+}
+
+
+/*=====================================================   Missing People Report Page Styling  =====================================================*/
+
+/*============================
+Navbar Styling
+============================*/
+
+#header{
+	background: url(../image/Nav-BG.png);
+	height: 330px;
+}
+#header .top{
+	color: white;
+}
+#header h1{
+	margin-top: 140px;
+	text-shadow: 1px 1px 10px black;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+}
+#header h1 b{
+	color: #fa5c65;
+}
+#header hr{
+	border: 1px solid #fa5c65;	
+	width: 10%;
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
+#header p{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+}
+
+
+/*============================
+Form Styling
+============================*/
+
+
+.Missing{
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+.Missing .bg{
+	box-shadow: 0px 0px 15px #d7dfe3;
+	background: #ffffff;
+	border-radius: 5px;
+	padding: 50px;
+}
+.Missing .bg .first{
+    margin-top: 30px;
+}
+.Missing .bg .fs-title {
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 1px 1px 10px black;
+        border-radius: 5px 5px 0px 0px;
+        font-family: 'EB Garamond', serif;
+        background: #2d2d2d;
+        margin-top: -50px;
+        margin-left: -50px;
+        margin-right: -50px;
+        padding: 13px 20px 13px 20px;
+        letter-spacing: 1px;
+        border-bottom: 3px solid #fa5c65;
+        text-align: center;
+}
+.Missing .bg label{
+    margin-left: 5px;
+    color: gray;
+    letter-spacing: 1px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 10px;
+}
+.Missing .bg .alert-warning, .bg .alert-danger, .bg .alert-success{
+    font-family: 'EB Garamond', serif;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.Missing .bg input[type=text]{
+	width: 100%;
+	display: block;
+	height: 35px;
+	margin-bottom: 30px;
+	padding-left: 5px;
+	border: 0;
+	border-bottom: 1px solid lightgray;
+	font-family: 'EB Garamond', serif;
+    transition: .5s;
+}
+.Missing .bg input[type=text]:hover{
+    border-bottom: .5px solid #81c935;
+    transition: .5s;
+}
+.Missing .bg input[type=text]:focus{
+    outline: 0;
+}
+.Missing .bg .text-right a{
+	cursor: pointer;
+}
+.Missing .bg .more-info{
+    border-radius: 3px;
+    background: #81c935;
+    color: white;
+    border-top: 1.5px solid gray;
+    border-bottom: 1.5px solid gray;
+	font-family: 'EB Garamond', serif;
+    transition: .5s;
+}
+.Missing .bg .more-info:hover{
+	box-shadow: 0px 0px 20px lightgray;
+}
+.Missing .bg textarea{
+	height: 70px;
+    width: 100%;
+	font-family: 'EB Garamond', serif;
+    border: 0;
+	border-bottom: .5px solid lightgray;
+}
+.Missing .bg textarea:focus{
+    outline: 0;
+    box-shadow: 0;
+}
+.Missing .bg .gender label{
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+    line-height: 16px;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+    color: gray;
+}
+.Missing .bg .gender input[type=radio]{
+	margin: 0 5px;
+}
+.Missing .bg .MissingDate{
+    line-height: 16px;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: gray;
+}
+.Missing .bg .calender{
+    border-radius: 3px;
+    font-family: 'EB Garamond', serif;
+    color: gray;
+    transition: .5s;
+}
+.Missing .bg .calender:focus{
+    outline: 0;
+    box-shadow: 0;
+}
+.Missing .bg .calender:hover{
+    transition: .5s;
+    border-bottom: 1px solid #81c935;
+}
+.Missing .bg input[type=radio]{
+    cursor: pointer;
+    line-height: 16px;
+	font-size: 13px;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+    font-weight: normal;
+    color: gray;
+}
+.Missing .bg #Date{
+    margin-left: 50px;
+}
+.Missing .bg #ThingSelect{
+    margin-left: 50px;
+}
+.Missing .bg .Image{
+    line-height: 16px;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+    color: gray;
+}
+.Missing .bg input[type=submit]{
+    margin-top: 30px;
+    width: 30%;
+    margin-bottom: -30px;
+    border-radius: 1px;
+    background: #81c935;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 1.5px solid gray;
+	font-family: 'EB Garamond', serif;
+    transition: .5s;
+}
+.Missing .bg input[type=submit]:hover{
+	box-shadow: 0px 0px 20px lightgray;
+    color: black;
+    text-shadow: 1px 1px 5px gray;
+}
+.Missing .bg #ReportFoundThing{
+    margin-left: 100px;
+    width: 30%;
+}
+.Missing .bg #ReportDate{
+    width: 25%;
+    margin-left: 5px;
+}
+.Missing .bg #ReportMonth{
+    width: 25%;
+    margin-left: 10px;
+}
+.Missing .bg #ReportYear{
+    margin-left: 10px;
+    width: 25%;
+}
+.Missing .bg #ReportPublicity{
+    margin-left: 68px;
+    width: 30%;
+}
+.Missing .bg #ReportCCTV{
+    width: 30%;
+    margin-left: 22px;
+}
+
+/*===========================
+Sidebar Post Section
+===========================*/
+
+#form-submit #discussion-forum{
+	margin-top: 02px;
+	margin-bottom: 0px;
+}
+
+
+/*===============================================
+CSS3 Media Queries for Missing People Report Page
+===============================================*/
+
+@media (max-width: 1200px){
+    #Testimonial .footer h5, .footer .text-right{
+        margin-top: 25px;
+    }
+}
+@media (max-width: 992px){
+    .Missing .bg #Date, #Month, #MissingPeopleMonth, #MissingPeopleYear, #CNICDate, #CNICYear, #CNICMonth, #Year{
+        display:block;
+        margin-left:0;
+        width: 50%;
+        margin: 10px 0;
+    }    
+    .Missing .bg #ThingSelect{
+        display:block;
+        margin-left:0;
+        width: 50%;
+        margin: 10px 0;
+    }
+    .Missing .bg #ReportFoundThing{
+        width: 50%;
+        margin-left: 0px;
+        display: block;
+    }
+    .Missing .bg #ReportDate, .Missing .bg #ReportMonth, .Missing .bg #ReportYear, .Missing .bg #ReportCCTV, .Missing .bg #ReportPublicity{
+        width: 50%;
+        margin-left: 0px;
+        display: block;
+        margin: 10px 0;
+    }
+    #Testimonial .footer .text-right{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 768px) {
+        #discussion-forum .report .panel{
+        margin-top: -180px;
+        margin-bottom: -40px;
+    }
+}
+@media (max-width: 400px){
+    #header .top{
+        height: 300px;
+    }
+    .Missing .bg input[type=submit]{
+        width: 100%;
+    }
+    .Missing .bg .more-info{
+        width: 100%;
+    }
+    .Missing .bg .text-right{
+        margin-bottom: 20px;
+    }
+    #header .top h1{
+        margin-top: 100px;
+    }
+    .Missing .bg #Date, #Month, #MissingPeopleMonth, #MissingPeopleYear, #CNICDate, #CNICYear, #CNICMonth, #Year, #ThingSelect{
+        width: 100%;
+    }
+    .Missing .bg #ThingSelect {
+        width: 100%;
+    }
+    .Missing .bg #ReportFoundThing{
+        width: 100%;
+    }
+    .Missing .bg #ReportDate, .Missing .bg #ReportMonth, .Missing .bg #ReportYear, .Missing .bg #ReportCCTV, .Missing .bg #ReportPublicity{
+        width: 100%;
+    }
+}
+
+
+/*============================================================   Login Page Styling  ============================================================*/
+
+/*============================
+Login form Styling
+============================*/
+
+.Login .bg{
+	width: 100%;
+	height: 50%;
+	margin-top: 200px;
+	margin-bottom: 40px;
+	border: .3px solid black;
+    pad
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+    box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+}
+.Login .bg img{
+	top: 150px;
+	position: absolute;
+	left: calc(50% - 50px);
+}
+.Login .bg h2.help{
+    margin-top: 80px;
+	color: #bdc3c7;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	text-transform: uppercase;
+}
+.Login .bg .LoginText{
+	margin-top: 80px;
+	color: #bdc3c7;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	text-transform: uppercase;
+}
+.Login .bg hr{
+    margin-top: 0;
+	border: 0.5px solid #bdc3c7;
+	width: 10%;
+}
+.Login .bg .inputs{
+	margin-top: 60px;
+	padding: 0px 30px 0px 30px;
+}
+.Login .bg .inputs input{
+	display: block;
+	width: 100%;
+	background: transparent !important;
+	border: 0.5px solid #9d4654;
+	height: 35px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	color: #bdc3c7;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-family: 'EB Garamond', serif;
+}
+.Login .bg .inputs input::-webkit-input-placeholder{
+	color: #bdc3c7;
+}
+.Login .bg .inputs input[type=text]:focus, .inputs input[type=password]:focus{
+	outline: 0;
+	box-shadow: 0px 0px 10px #9d4654;
+}
+.Login .bg .inputs .login-btn{
+	color: #bdc3c7;
+	background: #9d4654 !important;
+	border: 0;
+	margin-bottom: 0px;
+}
+.Login .bg .inputs .login-btn:focus{
+	outline: 0;
+}
+.Login .bg .inputs .login-btn:hover{
+	background: black;
+}
+.Login .bg .inputs .signup{
+    margin-top: 50px;
+}
+.Login .bg .inputs h5 a{
+	color: #bdc3c7;
+	font-family: 'EB Garamond', serif;
+	font-size: 14px;
+	transition: .5s;
+	letter-spacing: 1px;
+}
+.Login .bg .inputs h5 a:hover{
+	text-decoration: none;
+	color: #9d4654;
+	transition: .5s;
+}
+.Login .bg .inputs h6, h6 a{
+	margin-top: 80px;
+	color: #bdc3c7;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	margin-bottom: 20px;
+}
+.Login .bg .inputs h6 a{
+	color: #9d4654;
+	font-weight: bold;
+}
+.login-form a:hover{
+	text-decoration: none;
+	color: white;
+	transition: .5s;
+}
+.Login .bg .SessionMsg{
+    color: red; 
+    font-size: 12px;
+    margin-top: -30px;
+    letter-spacing: .5px;
+    text-shadow: 1px 1px 5px black;
+}
+.Login .bg #ValidationMsg, .bg #ErrorMsg, .bg #UsernameValidation, .bg #EmailValidation, .bg #NumberValidation, .bg #PasswordValidation{
+	font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #2d2d2d;
+}
+.Login .bg .help{
+    color: #bdc3c7;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+
+/*===============================================
+CSS3 Media Queries for Login Page
+===============================================*/
+
+@media (max-width: 992px) {
+    .Login .bg{
+        margin-bottom: 10px;
+    }
+}
+/* For Small Screen*/
+@media (max-width: 420px) 
+{
+    .Login .bg .inputs input[type=text]{
+        font-size: 10px;
+    }
+    .Login .bg .inputs h5 .ForgotPassword{
+        font-size: 10px;
+    }
+}
+
+
+/*=======================================================   Create Account Page Styling  =======================================================*/
+
+/*============================
+Create Account form Styling
+============================*/
+
+.Registration .bg{
+	width: 100%;
+	height: 50%;
+	margin-top: 180px;
+	margin-bottom: 40px;
+	border: .3px solid black;
+	border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+    box-shadow: 0px 0px 31px 12px rgba(0,0,0,1);
+
+}
+.Registration .bg img{
+	top: 130px;
+	position: absolute;
+	left: calc(50% - 50px);
+}
+.Registration .bg .register{
+	margin-top: 80px;
+	color: #bdc3c7;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 1px 1px 10px #2d2d2d;
+	text-transform: uppercase;
+}
+.Registration .bg hr{
+	margin-top: 0;
+	border: 0.5px solid #bdc3c7;
+	width: 20%;
+}
+.Registration .bg .inputs{
+	margin-top: 50px;
+	padding: 0px 30px 0px 30px;
+}
+.Registration .bg .inputs input[type=text], .bg .inputs input[type=password], .bg .inputs input[type=submit]{
+	display: block;
+	width: 100%;
+	background: transparent !important;
+	border: 1px solid #9d4654;
+	height: 35px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	color: #bdc3c7;
+	border-radius: 2px;
+	margin-bottom: 25px;
+	font-family: 'EB Garamond', serif;
+}
+.Registration .bg .inputs input[type=radio], .bg .inputs input[type=file]{
+	font-family: 'EB Garamond', serif;
+	color: #bdc3c7;
+	letter-spacing: 1px;
+	font-size: 15px;
+
+}
+.Registration .bg .inputs input::-webkit-input-placeholder{
+	color: #bdc3c7;
+}
+.Registration .bg .inputs input[type=text]:focus, .inputs input[type=password]:focus{
+	outline: 0;
+	box-shadow: 0px 0px 10px #9d4654;
+}
+.Registration .bg .inputs .login-btn{
+	color: #bdc3c7;
+	background: #9d4654 !important;
+	border: 0;
+	margin-bottom: 0px;
+}
+.Registration .bg .inputs .login-btn:focus{
+	outline: 0;
+}
+.Registration .bg .inputs .login-btn:hover{
+	background: black;
+}
+.Registration .bg .inputs .gander{
+    color: #bdc3c7;
+	font-family: 'EB Garamond', serif;
+    font-size: 14px;
+	letter-spacing: 1px;
+}
+.Registration .bg .inputs .image{
+    color: #bdc3c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	font-family: 'EB Garamond', serif;
+    font-size: 14px;
+	letter-spacing: 1px;
+}
+.Registration .bg .inputs h5 a{
+	color: #bdc3c7;
+	font-family: 'EB Garamond', serif;
+	font-size: 14px;
+	transition: .5s;
+	letter-spacing: 1px;
+}
+.Registration .bg .inputs h5 a:hover{
+	text-decoration: none;
+	color: #9d4654;
+	transition: .5s;
+}
+.Registration .bg .inputs h6, h6 a{
+	margin-top: 80px;
+	color: #bdc3c7;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	margin-bottom: 20px;
+}
+.Registration .bg .inputs .singup{
+	margin-top: 50px;
+}
+.Registration .bg .inputs h6 a{
+	color: #9d4654;
+	font-weight: bold;
+}
+
+
+/*===============================================
+CSS3 Media Queries for Create Account Page
+===============================================*/
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+    .Registration .bg {
+        margin-top: 230px;
+    }
+    .Registration .bg img{
+	    top: 180px;
+	    position: absolute;
+	    left: calc(50% - 50px);
+    }
+}
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	.Registration .bg {
+        margin-top: 180px;
+    }
+    .Registration .bg img{
+	    top: 130px;
+	    position: absolute;
+	    left: calc(50% - 50px);
+    }
+}
+@media (max-width: 550px) 
+{
+    .Registration .bg .inputs .gander input[type=radio]{
+        display: block;
+    }
+}
+/* For Extra Small Screen*/
+@media (max-width: 420px)
+{
+	.Registration .bg .register{
+        font-size: 20px;
+	}
+    .Registration .bg .inputs input[type=text], .bg .inputs input[type=password], .bg .inputs input[type=submit]{
+        font-size: 10px;
+    } 
+    .Registration .bg .inputs .gander{
+        font-size: 11px;
+    }
+    .Registration .bg .inputs .gander input[type=radio]{
+        display: block;
+    }
+    .Registration .bg .inputs .image{
+        font-size: 11px;
+    }
+    .Registration .bg .inputs input[type=file]{
+        font-size: 12px;
+    } 
+}
+
+
+/*=======================================================   View All Posts Page Styling  =======================================================*/
+
+/*============================
+Nav Bar Styling
+============================*/
+
+#top-nav{
+	margin-bottom: 130px;
+}
+@media (max-width: 992px) 
+{
+    #top-nav{
+        margin-bottom: 180px; 
+    }   
+}
+@media (max-width: 768px) 
+{
+    #top-nav{
+        margin-bottom: 140px; 
+    }   
+}
+
+
+/*=======================================================   Contact Us Page Styling  =======================================================*/
+
+/*============================
+Contact form Styling
+============================*/
+
+#contact-header{
+	background: url(../Image/Contact_Us_Hero.png);
+	height: 350px;
+}
+#contact-header .top h1{
+	margin-top: 150px;
+	color: white;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+}
+#contact-header .top h1 b{
+	color: #fa5c65;
+}
+#contact-header .top hr{
+	border: 1px solid #fa5c65;
+	width: 8%;
+	margin-top: 0px;
+	margin-bottom:30px;
+}
+#contact-header .top p{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+#contact-form{
+	margin-top: 50px;
+}
+#contact-form #myForm{
+	height: 350px;
+}
+#contact-form #myForm input[type=text]{
+	padding-left: 55px;
+	height: 60px;
+	width: 31%;
+	margin: 10px 5px 30px 5px;
+	border-left: 1px solid #fa5c65;
+	border-radius: 2px;
+}
+#contact-form #myForm textarea{
+	border-left: 1px solid #fa5c65;
+	border-radius: 2px;
+}
+#contact-form #myForm i{
+	position: absolute;
+	margin-top: 1px;
+	height: 50px;
+	width: 60px;
+	padding-top: 26px;
+	color: #222222;
+}
+#contact-form #myForm .btn{
+	margin-top: 30px;
+	width: 20%;
+	height: 55px;
+	background: #fa5c65;
+	border-radius: 2px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-family: 'EB Garamond', serif;
+	color: black;
+	transition: 1s;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+#contact-form #myForm h4{
+	margin-bottom: 40px;
+}
+#contact-form #myForm textarea:focus{
+	box-shadow: 0 0 0;
+	border: 1px solid #2d2d2d;
+}
+#contact-form #myForm input[type=text]:focus{
+	box-shadow: 0 0 0;
+	border: 1px solid #2d2d2d;
+}
+#contact-form #myForm .btn:hover{
+	transition: 1s;
+	color: white;
+	background: #2D2D2D;
+}
+#contact-form #myForm input[type=text]::-webkit-input-placeholder{
+	color: #cccccc;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+#contact-form #myForm textarea::-webkit-input-placeholder{
+	color: #cccccc;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+#contact-form #ErrorInternet, #ErrorEmail, #SubmitSuccessfull{
+    color:red;
+    letter-spacing:1px;
+    font-family: EB Garamond, serif;
+    margin-bottom:20px;
+}
+
+
+/*===============================================
+CSS3 Media Queries for Contact Us Page
+===============================================*/
+
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	#contact-form #myForm i{
+		display: none; 
+	}
+	#contact-form #myForm input[type=text]{
+		width: 100%;
+		padding-left: 10px;
+	}
+	#contact-form #myForm textarea{
+		width: 100%;
+		margin-left: 5px;
+	}
+	#contact-form #myForm .btn{
+		width: 30%;
+	}
+}
+@media (max-width: 400px) 
+{
+    #contact-header .top h1{
+        margin-top: 100px;
+    }
+}
+
+
+
+/*===========================================================   About Us Page Styling  ==========================================================*/
+
+/*============================
+About Us Styling
+============================*/
+
+
+#about-us{
+	margin-top: 100px;
+	color: black;
+	margin-bottom: 70px;
+}
+#about-us h1{
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	color: #2d2d2d;
+}
+#about-us p{
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+}
+
+
+/*===========================================================   Post A Report Page Styling  ==========================================================*/
+
+/*============================
+Post Report Page Styling
+============================*/
+
+
+#post-report{
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+#post-report .box{
+	border: 1px solid #fa5c65;
+	padding: 0px 15px 15px 15px;
+	transition: 1s;
+}
+#post-report .box h3{
+	color: #fa5c65;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+}
+#post-report .box p{
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+	color: black;
+}
+#post-report .box a{
+	color: black;
+	text-shadow: none;
+	background: #fa5c65;
+	width: 30%;
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+	transition: 1s;
+}
+#post-report .box:hover p{
+    color: white;
+}
+#post-report .box:hover{
+	background: #2D2D2D;
+	color: white;
+	transition: 1s;
+}
+#post-report .box a:hover{
+	color: black;
+	transition: 1s;
+}
+
+
+/*===============================================
+CSS3 Media Queries for Post a Report Page
+===============================================*/
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	#post-report{
+		margin-top: 180px;
+	}
+	#post-report .box a{
+		width: 40%;
+	}
+}
+/* For Medium Screen*/
+@media (max-width: 768px)
+{
+    #post-report{
+        margin-top: 130px;
+    }
+	#post-report .box{
+        margin-bottom: 20px;
+	    box-shadow: 0px 0px 10px #bdc3c7;
+    }
+}
+
+
+/*===========================================================  Seeking Information Page Styling  ==========================================================*/
+
+/*============================
+Seeking Informaton Page Styling
+============================*/
+
+.seek .column2{
+    margin-top: 67px;
+}
+#form-submit .search-bg{
+	background: #ffffff;
+	height: 230px;
+	margin-top:70px;
+	border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 0px 15px #d7dfe3;
+
+}
+#form-submit .search-bg h4{
+    background: #2d2d2d;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 11px 0px 11px 0px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #fa5c65;
+}
+#form-submit .search-bg .form-group{
+	padding-top: 15px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+#form-submit .search-bg .form-group input[type=text]{
+	width: 100%;
+	border-radius: 0px;
+    margin-bottom: 10px;
+	border: 1px solid #fa5c65;
+}
+#form-submit .search-bg .form-group #CategoryName{
+    width: 100%;
+    border-radius: 0px;
+    padding-left: 8px;
+    border: 1px solid #fa5c65;
+}
+#form-submit .search-bg .form-group input[type=text]:focus{
+	box-shadow: 0px 0px 4px #fa5c65;
+	border: 0px solid white;
+}
+#form-submit .search-bg input[type=submit]{
+	width: 20%;
+	background: #fa5c65;
+	border-radius: 2px;
+	padding: px 0px 4px 0px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+	transition: 1s;
+	border: 1px solid #fa5c65;
+	text-shadow: 0px 0px 10px black;
+	letter-spacing: 2px;	
+    margin-top: 0px;
+}
+#form-submit .search-bg input[type=submit]:hover{
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #2d2d2d;
+}
+.top center{
+	margin-top: 20px;
+}
+.top center .form-group input[type=text]{
+	width: 65%;
+	margin-right: 10px;
+	border-radius: 2px;
+    height: 35px;
+}
+.top center .form-group input[type=text]:focus{
+	box-shadow: 0px 0px 10px #fa5c65;
+	border: 0px solid white;
+}
+.top center .form-group input[type=submit]{
+	width: 25%;
+	background: #fa5c65;
+	border-radius: 2px;
+	padding: 2px 0px 5px 0px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+    height: 35px;
+	transition: 1s;
+	border: 1px solid #fa5c65;
+	text-shadow: 0px 0px 10px black;
+	letter-spacing: 2px;
+}
+.top center .form-group input[type=submit]:hover{
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #2d2d2d;
+}
+.SearchResult{
+    margin-top: 30px;
+}
+.SearchResult .imageBox{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 7px 10px 12px #e3e5e7;
+    height: 400px;
+}
+.SearchResult h3{
+    margin-left: 15px; 
+    margin-top: 0px; 
+    margin-bottom: 20px;
+}
+.SearchResult .imageBox h5{
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+}
+.SearchResult .imageBox h5.name{
+    top: -60px;
+    transform: translateY(-40%);
+    transition: .6s;
+}
+.SearchResult .imageBox h5.reference{
+    top: -60px;
+    transform: translateY(-30%);
+    transition: 1s;
+}
+.SearchResult .imageBox h5.contact{
+    top: -40px;
+    transform: translateY(-20%);
+    transition: 1.4s;
+}
+.SearchResult .imageBox:hover h5.name{
+    top: 15%;
+    transition: .4s;
+}
+.SearchResult .imageBox:hover h5.reference{
+    top: 23%;
+    transition: .8s;
+}
+.SearchResult .imageBox:hover h5.contact{
+    top: 31%;
+    transition: 1s;
+}
+.SearchResult .imageBox img{
+    transition: .5s;
+    height: 200px;
+    width: 100%;
+}
+.SearchResult .imageBox img:hover{
+    transition: .5s;
+    opacity: .8;
+}
+.SearchResult .imageBox a:focus{
+    text-decoration: none;
+}
+.SearchResult .imageBox a:hover{
+    text-decoration: none;
+}
+.SearchResult .imageBox:hover{
+    transition: .8s;
+    box-shadow: 1px 1px 5px #e3e5e7;
+}
+
+/*=======================
+CSS3 Media Queries for Seeking Information Page
+=======================*/
+
+@media (max-width: 1200px) 
+{
+    .SearchResult .imageBox img{
+        height: 150px;
+    }
+}
+/* For Large Screen*/
+@media (max-width: 992px)
+{
+    #header .top .information{
+        margin-top: 160px;
+    }
+    #header .top input[type=text]::-webkit-input-placeholder{
+        font-size: 12px;
+    }
+    #form-submit .search-bg .form-group #CategoryName{
+        font-size: 12px;
+    }
+    #form-submit .form-group .form-inline input[type=text]::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    #form-submit .search-bg{
+        margin-top: 70px;
+    }
+    #form-submit .search-bg input[type=submit]{
+        width: 30%;
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    #form-submit .search-bg{
+        height: 230px;
+    }
+    
+}
+
+@media (max-width: 768px) 
+{
+    .seek .column2{
+        margin-bottom: 70px;
+    }
+    #header .top .information{
+        margin-top: 120px;
+    }
+    #header .top input[type=submit]{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    #form-submit .search-bg{
+        height: 300px;
+        margin-bottom: 150px;
+    }
+    #form-submit .search-bg .form-group .form-inline input[type=text]{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    #form-submit .search-bg input[type=submit]{
+        margin-top: 20px;
+    }
+    .SearchResult .imageBox img{
+        height: 200px;
+    }
+    #form-submit .search-bg{
+        height: 330px;
+    }
+    #form-submit .search-bg .error{
+        margin-top: 10px;
+    }
+    .SearchResult .row h3.info{
+        margin-top: -150px;
+    }
+    .SearchResult .imageBox{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    #header .top .information{
+        font-size: 23px;
+        margin-top: 130px;
+    }
+    #header .top input[type=submit]{
+        font-size: 12px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    #header .top input[type=text]::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+    #header .top input[type=text]{
+        margin-top: -20px;
+        width: 100%;
+    }
+    #form-submit .search-bg h4{
+        font-size: 17px;
+        text-align: center;
+    }
+    #form-submit .search-bg .form-group{
+	    padding-top: 5px;
+    	padding-left: 5px;
+        padding-right: 5px;
+    }   
+    #form-submit .search-bg input[type=submit]{
+        font-size: 12px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .SearchResult .imageBox img{
+        height: 150px;
+    }
+}
+
+
+/*===========================================================  Print Page  ==========================================================*/
+
+/*============================
+Print Page Styling
+============================*/
+
+.print-btn{
+	font-family: 'EB Garamond', serif;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    background:#f95c65;
+    border: none;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.print{
+	box-shadow: 0px 0px 10px #d7dfe3;
+    padding: 20px 10px 20px 10px;
+}
+.print img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/*===========================================================  ft Page Styling  ==========================================================*/
+
+/*============================
+Full Post Page Styling
+============================*/
+
+
+.NameAndImage{
+	padding: 0px 0px 12px 5px;
+	font-family: 'EB Garamond', serif;
+	font-size: 18px;
+}
+.total-views{
+    padding: 10px 10px 10px 10px;
+}
+.total-views .views, .total{
+	font-size: 13px;
+}
+.NameAndImage label{
+	margin-left: 5px;
+	height: 30px;
+}
+.NameAndImage a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}
+.information{
+	margin-top: 20px;
+}
+.information-bottom{
+	border: 1px solid #fa5c65;
+	width: 15%;
+	margin-top: 0px;
+	letter-spacing: 1px;
+}
+.post .media .name{
+	font-weight: normal;
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+}
+.panel .panel-heading{
+	background: #fa5c65;
+	font-weight: bold;
+}
+.panel table .heading th{
+	text-align: center;
+	background: #f5f5f5;
+	font-weight: bold;
+	color: #222222;
+	font-family: 'EB Garamond', serif;
+}
+.panel table tr td{
+	font-size: 13px;
+	height: 70px;
+	text-align: center;
+}
+.comment-bottom{
+    margin-bottom: 5px;
+}
+.comment-bottom a{
+	color: gray;
+	margin: 24px;
+	transition: .5s;
+	font-size: 15px;
+	font-family: 'EB Garamond', serif;
+}
+.comment-bottom a:hover{
+	text-decoration: none;
+	color: #fa5c65;
+}
+.comment a img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comments img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.form-group a:hover{
+    text-decoration: none;
+}
+.form-group a{
+    color: #2d2d2d;
+}
+#discussion-forum .post .media .comment input[type=text]{
+    margin-top: 3px;
+}
+#discussion-forum .post .media .comment input[type=submit]{
+    margin-top: 0px;
+}
+
+/*=======================
+CSS3 Media Queries for Full Post Page
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px)
+{
+	.comment-bottom a{
+		margin: 20px;
+        font-size: 12px;
+	}
+}
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	.comment-bottom a{
+		margin: 5px;
+		font-size: 11px;
+	}
+	#discussion-forum .post .media .comment input[type=text]{
+		width: 60%;
+	}
+	#discussion-forum .post .media .comment input[type=submit]{
+		width: 30%;
+	}
+}
+/* For Medium Screen*/
+@media (max-width: 768px)
+{
+    .comment-bottom{
+        text-align: center;
+    }
+	.comment-bottom a{
+		font-size: 2vw;
+		margin: 10px;
+	}
+	#discussion-forum .post{
+		margin-bottom: -100px;
+	}
+	#discussion-forum .Popular-column{
+		margin-bottom: 60px;
+	}
+	#discussion-forum .post .media .comment input[type=text]{
+		width: 70%;
+		display: inline;
+	}
+	#discussion-forum .post .media .comment input[type=submit]{
+		width: 20%;
+		display: inline;
+		font-size: 14px;
+		padding: 7px;
+	}
+}
+
+/* For Extra Small Screen*/
+@media (max-width: 530px)
+{
+	#discussion-forum .post .media .comment input[type=text]{
+		display: block;
+		width: 100%;
+	}
+	#discussion-forum .post .media .comment input[type=submit]{
+		display: block;
+		width: 40%;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 345px) 
+{
+    .total-views{
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 480px) 
+{
+    .comment-bottom{
+        margin-top: -30px;
+        text-align: left;
+    }
+    .comment-bottom a{
+        display: block;
+        font-size: 11px;
+    }
+    #discussion-forum .post .media .comment input[type=text]{
+		display: block;
+		width: 90%;
+        margin-left: 20px;
+        font-size: 10px;
+        height: 30px;
+        margin-top: 0px;
+	}
+	#discussion-forum .post .media .comment input[type=submit]{
+		display: block;
+		width: 90%;
+		margin-top: 5px;
+        margin-left: 20px;
+        font-size: 10px;
+        padding: 5px 0px 5px 0px;
+	}
+    .panel table tr td, .panel table th{
+        font-size: 10px;
+    }
+}
+
+
+/*===========================================================  Feedback Page Styling  ==========================================================*/
+
+/*============================
+Feedback Page Styling
+============================*/
+
+#feedback{
+	margin-top: 140px;
+	margin-bottom: 50px;
+	font-family: 'EB Garamond', serif;
+
+}
+#feedback .bg{
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 0px 20px 20px 20px;
+	box-shadow: 0px 0px 10px #bdc3c7;
+    background: white;
+}
+#feedback .bg label{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#feedback .bg h3{
+	font-weight: normal;
+	color: #fa5c65
+}
+#feedback .bg h5{
+	font-size: 16px;
+}	
+#feedback .bg select{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	font-size: 15px;
+}
+#feedback .bg textarea{
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	width: 100%;
+}
+#feedback .bg .btn-feedback{
+	margin-top: 15px;
+	font-size: 18px;
+	padding: 7px 30px 7px 30px;
+	transition: .5s;
+}
+#feedback .bg .btn-feedback:hover{
+	background-color: #fa5c65;
+	transition: .5s;
+	color: white;
+}
+
+/*=======================
+CSS3 Media Queries for Fedback Page
+=======================*/
+
+@media (max-width: 992px)
+{
+	#feedback{
+		margin-top: 180px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	#feedback{
+		margin-top: 140px;
+	}
+}
+
+@media (max-width: 500px)
+{
+	#feedback .bg{
+		font-size: 12px;
+	}
+	#feedback .bg h3{
+		font-size: 17px;
+	}
+	#feedback .bg h5{
+		font-size: 13px;
+	}
+	#feedback .bg .btn-feedback{
+		font-size: 15px;
+	}
+}
+
+/*===========================================================  FAQs Page Styling  ==========================================================*/
+
+/*============================
+FAQs Page Styling
+============================*/
+
+#faqs{
+	margin-top: 100px;
+}
+#faqs .panel{
+	margin-bottom: 10px;
+}
+#faqs .heading{
+	font-family: 'EB Garamond', serif;
+	margin-bottom: 20px;
+	color: #fa5c65;
+}
+#faqs .panel .panel-heading{
+	background: #f2f2f2;
+}
+#faqs .panel .panel-heading .panel-title a{
+	text-decoration: none;
+	font-family: 'EB Garamond', serif;
+}
+#faqs .card-header:after{
+	font-family: 'FontAwesome';
+	content: "\f068";
+	float: right;
+}
+#faqs .panel-heading .panel-title .collapsed:after{
+	content: "\f067";
+}
+
+/*=======================
+CSS3 Media Queries for FAQs Page
+=======================*/
+
+@media (max-width: 992px)
+{
+	#faqs{
+		margin-top: 150px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	#faqs{
+		margin-top: 120px;
+	}
+}
+
+@media (max-width: 500px)
+{
+    #faqs .heading{
+        font-size: 20px;
+    }
+	#faqs .panel .panel-heading .panel-title a{
+        font-size: 14px;
+	}
+    #faqs .panel .panel-body{
+        font-size: 12px;
+    }
+}
+
+/*===========================================================  Google Translate  ==========================================================*/
+
+.translator{
+    margin-top: 35px;
+    margin-right: 1px;
+}
+.goog-te-menu-value span{
+    color: black;
+    text-decoration: none;
+}
+.goog-te-menu-value:hover{
+    text-decoration: none;
+}
+.goog-te-gadget-simple{
+    background: #ffffff !important;
+    background: black;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #d7dfe3;
+}
+.goog-te-gadget-simple span{
+    margin-right: 5px;
+	font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.goog-te-gadget-simple img{
+    display: none;
+}
+
+.inlineBlock _2tga _49ve{
+    background: red;
+}
+div#u_0_1{
+    display: none;
+}
