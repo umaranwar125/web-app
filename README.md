@@ -15,7 +15,7 @@ Installation Guide
 
 Step 3.
 
-    Open Ecommerce.sln file in Visual studio 13 or higher.
+    Open MissingPeopleAndThingsProject.sln file in Visual studio 13 or higher.
 Step 4.
 
     Open web.config file and update a connection string.
